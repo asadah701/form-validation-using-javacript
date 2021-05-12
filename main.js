@@ -85,5 +85,5 @@ function displaydata(){
 }
 const form = document.getElementById('form');
 form.addEventListener("change",() => {
-    document.getElementById('submit').disabled = !form.validateform()
+    document.getElementById('submit').disabled = !form.checkValidity()
 });
