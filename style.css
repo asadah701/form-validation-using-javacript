@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 230, 230);
+}
+table{
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.formdiv{
+    border-radius: 5px ;
+    margin-left: 34rem;
+    margin-right: 34rem;
+    box-shadow: 2px 2px 2px 2px rgba(185, 184, 184, 0.2);
+    background-color: rgb(216, 239, 250);
+}
+span{
+    color: red;
+}
+#message{
+    color: rgb(41, 39, 39);
+    padding: 15px 15px;
+}
+h2{
+    text-align: center;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formdiv">
+        <h2>Javascript Form</h2>
+        <form id="form" action=""  name="form" onsubmit="event.preventDefault(); validateform();">
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="name">Name :</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter Name" required><br><span id="namefield"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="Mobile">Mobile :</label></td>
+                    <td><input type="text" id="mobile" name="mobile" placeholder="Enter Mobile Number"><br><span id="mobilefield"></span></td>
+                   
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="text" id="email" name="email" placeholder="Enter your Email" required><br><span id="emailfield"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="bio">Bio :</label></td>
+                    <td><textarea name="" id="bio" name="bio" cols="30" rows="10" required></textarea><br><span id="biofield"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="dob">Date Of Birth :</label> </td>
+                    <td><input type="date" name="dob" id="dob" required><br><span id="datefield"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender :</label></td>
+                    <td>Male <input type="radio" name="gender" id="gender" value="male" required> Female <input
+                            type="radio" name="gender" id="gender" value="female" required><br><span id="genderfield"></span></td>
+                            
+                </tr>
+                <tr>
+                    <td><button class="" id="submit" type="submit" disabled>submit</button> <button id="reset" type="reset">reset</button></td>
+                </tr>
+            </table>
+        </form>
+        <div id="message">
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
